@@ -1,0 +1,50 @@
+Package: documentationR
+Type: Book
+Title: Image docker utilitR
+Version: 0.0.0.9000
+Description: Ce dépôt comprend les fichiers nécessaires à construire l'image docker
+    d'utilitR
+Authors@R: c(
+    person("Lino"            , "Galiana"   , role = c("aut", "cre"), email = "lino.galiana@insee.fr"),
+    person("Olivier"         , "Meslin"    , role = c("aut", "cre"), email = "olivier.meslin@insee.fr"),
+    person("Romain"          , "Lesur"     , role = "ctb",           email = "romain.lesur@insee.fr"),
+    person(given = NULL, family = "Institut National de la Statistique et des Études Économiques", role = "cph")
+    )
+License: Licence Ouverte 2.0
+Encoding: UTF-8
+URL: https://github.com/InseeFrLab/utilitR
+VignetteBuilder: knitr
+Imports: 
+    xfun (>=0.19),
+    rmarkdown,
+    bookdown,
+    pagedown (>= 0.13.11),
+    data.table,
+    readr,
+    openxlsx,
+    import,
+    FactoMineR,
+    factoextra,
+    corrplot,
+    tmap,
+    ggplot2,
+    cartography,
+    import,
+    htmltools,
+    doremifasolData,
+    readODS,
+    kableExtra,
+    fontawesome,
+    magick,
+    magrittr,
+    utilitr
+Suggests: 
+    cranlogs,
+    haven,
+    rprojroot
+Remotes:
+    InseeFrLab/utilitr-template#14,
+    rstudio/bookdown#1027,
+    rstudio/fontawesome@2b64e3148c9c5c70e415cdeb3e33ac3200edadbf,
+    rstudio/pagedown
+    InseeFrLab/doremifasolData@a9df2d3d0e372adda15a860aa26dcd1321ef7210
